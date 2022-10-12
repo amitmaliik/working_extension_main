@@ -1,0 +1,1 @@
+console.log("Background.js"),chrome.runtime.onMessageExternal.addListener(((e,s,o)=>(console.warn("request received [method:%s]",e.method),o({success:!0,message:"Received"}),!0))),chrome.runtime.onMessage.addListener(((e,s,o)=>{console.log(e),o({success:!0,message:"received"})}));

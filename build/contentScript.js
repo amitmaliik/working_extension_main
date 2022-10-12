@@ -1,0 +1,1 @@
+(()=>{"use strict";document.cookie.session,chrome.runtime.sendMessage({type:"GREETINGS",payload:{message:"Hello, my name is Con. I am from ContentScript."}},(e=>{console.log(e)})),chrome.runtime.onMessage.addListener(((e,o,s)=>(console.log(e),"COUNT"===e.type&&console.log(response),s({status:!0,message:"Current Count"}),!0)))})();
